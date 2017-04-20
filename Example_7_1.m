@@ -14,12 +14,12 @@ for ii=1:n
     end
 end
 
-%% ADMM
+% ADMM
 r=3;
 [U,W,Z]=tendec_admm_nonsym(T,T_bad(T,r));
 nuclear_norm=sum((norms(U).^3+norms(W).^3+norms(Z).^3))/3
 
-%% SOS
+% SOS
 dim_n = size( T );
 mpol('x',sum(dim_n),1);
 u=x(1:dim_n(1));
