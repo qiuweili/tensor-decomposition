@@ -14,5 +14,5 @@ This set of Matlab codes reproduce the experimental results published in our pap
 	
 	- Run *Example_7_1.m* to reproduce Table I and Table II.  Note that for this particular tensor, the tensor nuclear norms are unique hence we can be recover Table I while the tensor factores are not unique and depending on the initializations. Therefore, one might get different results for Table II
 
-For questions or bug reports please send email to Qiuwei, liqiuweiss@gmail.com 
+For questions or bug reports please send email to Qiuwei, qiuli@mines.edu
  
